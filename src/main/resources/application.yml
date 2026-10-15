@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: first-project
+  ai:
+    ollama:
+      base-url: http://localhost:11434
+      chat:
+        options:
+          model: codellama:latest
+
+
+
+server:
+  port: 8081
